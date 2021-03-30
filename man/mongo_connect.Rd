@@ -11,7 +11,7 @@ mongo_connect(
   password = "",
   url = "localhost",
   replicaset = NULL,
-  port = 27017,
+  port = 27017L,
   use_ssl = FALSE,
   authSource = NULL,
   connection_delay = NULL,
