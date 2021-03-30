@@ -1,0 +1,34 @@
+Package: mongoTools
+Title: Functions to Interact with MongoDB
+Version: 2.2.1
+Authors@R: person("Tarak", "Kharrat",
+	          email = "tarak@realanalytics.co.uk",
+		  role = c("aut", "cre"))
+Description: A set of tools to assist the user requesting data from mongoDB. We cover in particular query generating and cluster connection. The package is meant to complete mongolite.
+Depends:
+    R (>= 4.0.3),
+    mongolite (>= 2.2)
+Imports:
+    dplyr (>= 1.0.0),
+    jsonlite,
+    lubridate
+Suggests:
+    testthat,
+    mongolitedt
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Collate:
+    'MongoTools.R'
+    'duplication.R'
+    'methods.R'
+    'prod_prototype.R'
+    'query.R'
+    'urls.R'
+    'replicate.R'
+    'saveObject.R'
+    'stats.R'
+    'tools.R'
+    'wrapper.R'
+    'zzz.R'

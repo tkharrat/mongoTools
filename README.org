@@ -1,0 +1,21 @@
+#+TITLE: MongoTools
+#+SUBTITLE: an R package to simplify mongo queries
+#+AUTHOR: Tarak Kharrat
+#+EMAIL: tarak@realanalytics.co.uk
+#+LANGUAGE: en
+
+~mongoTools~ is an ~R~ package to simplify building mongoDB queries. It is meant to complement the excellent [[https://cran.r-project.org/web/packages/mongolite/index.html][mongolite]] package.
+
+* Installation
+You can install the package directly from github using the ~devtools~ package:
+#+begin_src R
+devtools::install_github("tkharrat/mongoTools")
+#+end_src
+
+We also provide a conda recipe to install the package. The latest version is usually available on my channel:
+ #+begin_src shell
+ conda install r-mongotools -c tkharrat -c conda-forge
+ #+end_src
+* How to use it?
+** Connecting to a ~mongoDB~ server
+** Queries
