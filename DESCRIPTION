@@ -1,6 +1,6 @@
 Package: mongoTools
 Title: Functions to Interact with MongoDB
-Version: 2.2.1
+Version: 2.2.2
 Authors@R: person("Tarak", "Kharrat",
 	          email = "tarak@realanalytics.co.uk",
 		  role = c("aut", "cre"))
