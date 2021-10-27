@@ -24,14 +24,14 @@ requirements:
   build:
 
   host:
-    - r-base >=4.0.5
+    - r-base >=4.1.1
     - r-dplyr >=1.0.0
     - r-jsonlite
     - r-lubridate
     - r-mongolite >=2.2
 
   run:
-    - r-base >=4.0.5
+    - r-base >=4.1.1
     - r-dplyr >=1.0.0
     - r-jsonlite
     - r-lubridate
